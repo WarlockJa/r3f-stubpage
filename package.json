@@ -1,10 +1,9 @@
 {
-  "name": "r3f-apple",
+  "name": "3d-404-page",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".",
   "scripts": {
-    "dev": "next dev --turbo",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -12,10 +11,11 @@
   "dependencies": {
     "@react-three/drei": "^9.99.0",
     "@react-three/fiber": "^8.15.16",
-    "next": "14.1.0",
+    "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18",
-    "three": "^0.161.0"
+    "three": "^0.161.0",
+    "leva": "^0.9.35"
   },
   "devDependencies": {
     "@types/node": "^20",
@@ -23,7 +23,6 @@
     "@types/react-dom": "^18",
     "eslint": "^8",
     "eslint-config-next": "14.1.0",
-    "leva": "^0.9.35",
     "typescript": "^5"
   }
 }
