@@ -103,7 +103,7 @@ export function Glassshards(props: any) {
   );
 }
 
-useGLTF.preload("/glassshards.glb");
+useGLTF.preload("/media/glassshards.glb");
 
 function Mesh({ data }: any) {
   const options = {
