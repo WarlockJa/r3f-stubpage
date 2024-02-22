@@ -4,7 +4,7 @@ import { useControls } from "leva";
 
 export default function Model() {
   const { viewport } = useThree();
-  const { nodes } = useGLTF("/media/glass-shards.glb");
+  const { nodes } = useGLTF("/media/glassshards.glb");
   return (
     <group scale={viewport.width}>
       {nodes.Scene.children.map((mesh, index) => {
