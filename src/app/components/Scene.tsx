@@ -9,9 +9,9 @@ export default function Scene() {
     <Canvas orthographic camera={{ position: [0, 0, 1], zoom: 800 }}>
       {/* <OrbitControls /> */}
       <directionalLight intensity={3} position={[0, 0.1, 1]} />
-      <Model />
+      {/* <Model /> */}
       <Text404 />
-      <Environment preset="city" />
+      {/* <Environment preset="city" /> */}
     </Canvas>
   );
 }
