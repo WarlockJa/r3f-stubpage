@@ -6,7 +6,7 @@ export default function Model() {
   const { viewport } = useThree();
   const { nodes } = useGLTF("/media/glassshards.glb");
   return (
-    <group scale={viewport.width}>
+    <group scale={viewport.width} dispose={null}>
       {nodes.Scene.children.map((mesh, index) => {
         return <Mesh data={mesh} key={index} />;
       })}
